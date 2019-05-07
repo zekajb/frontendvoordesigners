@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    height: 5rem;
+    background: grey;
+}
+
+.poster {
+    margin: 2rem;
+    width: 10rem;
+    height: 16rem;
+    background: black;
+}
+
+.heartdiv {
+    margin: 0.5rem 0.5rem 0.5rem 6.5rem;
+    fill: white; 
+    width: 2rem;
+    transition: ease-in-out 0.5s;
+}
+
+.heartnav {
+    margin: 0 0 0 72rem;
+    fill: white;
+    width: 2rem;
+}
+
+.active {
+    transition: ease-in-out 0.5s;
+    width: 2.5rem;
+    fill: red;
+}
+
+.groeinav {
+    animation: groei 2s forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes groei {
+    from {
+        fill: white;
+    }
+    to {
+        fill: red;
+    }
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    margin: 0 0 0 72.3rem;
+    padding: 0.2rem 0.5rem;
+    background-color: red; 
+    border-radius: 0.3rem;
+}

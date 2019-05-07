@@ -1,17 +1,101 @@
-<html>
-  <head></head>
-  <body>
-    <h1>Opdracht 1 - versie 1</h1>
-    <p>
-      Hier komt de HTML van de interactieve demo te staan voor de eerste opdracht:
-      Ontwerp een user interface voor een gegeven use case.
-      Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een browser.
-    </p>
-    <ol>
-      <li>Als ik een lijst films heb gevonden, wil ik leuke films kunnen opslaan om ze thuis te ...</li>
-      <li>In een lijst gevonden studentenhuizen wil ik details kunnen bekijken om te bepalen of de kamer geschikt is.</li>
-      <li>In een verzameling muzieknummers wil ik de volgorde kunnen veranderen om een vette playlist te maken.</li>
-      <li>Als ik foto's zoek wil ik kunnen selecteren op kleur om verassende zoekresultaten te krijgen.</li>
-    </ol>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                        <svg class="heartnav" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+                        height="46px" viewBox="0 0 50 46" style="enable-background:new 0 0 50 46;" xml:space="preserve">
+                        <style type="text/css">
+                        </style>
+                        <defs>
+                        </defs>
+                        <path d="M24.85,8.13C26.87,3.34,31.48,0,36.84,0c7.22,0,12.42,6.18,13.08,13.54c0,0,0.35,1.83-0.42,5.12
+                        c-1.06,4.48-3.55,8.46-6.9,11.5L24.85,46L7.4,30.17c-3.35-3.04-5.84-7.02-6.9-11.5c-0.78-3.29-0.42-5.12-0.42-5.12
+                        C0.73,6.18,5.94,0,13.16,0C18.52,0,22.83,3.34,24.85,8.13z"/>
+                        </svg>
+                </li>
+                <li>
+                        <span id="verborgen"></span>
+                </li>
+            </ul>
+
+
+
+        </nav>
+        <section>
+            <article>
+                <div class="poster">
+                        <svg class="heartdiv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+                        height="46px" viewBox="0 0 50 46" style="enable-background:new 0 0 50 46;" xml:space="preserve">
+                        <style type="text/css">
+                        </style>
+                        <defs>
+                        </defs>
+                        <path d="M24.85,8.13C26.87,3.34,31.48,0,36.84,0c7.22,0,12.42,6.18,13.08,13.54c0,0,0.35,1.83-0.42,5.12
+                        c-1.06,4.48-3.55,8.46-6.9,11.5L24.85,46L7.4,30.17c-3.35-3.04-5.84-7.02-6.9-11.5c-0.78-3.29-0.42-5.12-0.42-5.12
+                        C0.73,6.18,5.94,0,13.16,0C18.52,0,22.83,3.34,24.85,8.13z"/>
+                        </svg>
+                </div>
+                <div class="poster">
+                        <svg class="heartdiv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+                        height="46px" viewBox="0 0 50 46" style="enable-background:new 0 0 50 46;" xml:space="preserve">
+                        <style type="text/css">
+                        </style>
+                        <defs>
+                        </defs>
+                        <path d="M24.85,8.13C26.87,3.34,31.48,0,36.84,0c7.22,0,12.42,6.18,13.08,13.54c0,0,0.35,1.83-0.42,5.12
+                        c-1.06,4.48-3.55,8.46-6.9,11.5L24.85,46L7.4,30.17c-3.35-3.04-5.84-7.02-6.9-11.5c-0.78-3.29-0.42-5.12-0.42-5.12
+                        C0.73,6.18,5.94,0,13.16,0C18.52,0,22.83,3.34,24.85,8.13z"/>
+                        </svg>
+                </div>
+                <div class="poster">
+                        <svg class="heartdiv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+                        height="46px" viewBox="0 0 50 46" style="enable-background:new 0 0 50 46;" xml:space="preserve">
+                        <style type="text/css">
+                        </style>
+                        <defs>
+                        </defs>
+                        <path d="M24.85,8.13C26.87,3.34,31.48,0,36.84,0c7.22,0,12.42,6.18,13.08,13.54c0,0,0.35,1.83-0.42,5.12
+                        c-1.06,4.48-3.55,8.46-6.9,11.5L24.85,46L7.4,30.17c-3.35-3.04-5.84-7.02-6.9-11.5c-0.78-3.29-0.42-5.12-0.42-5.12
+                        C0.73,6.18,5.94,0,13.16,0C18.52,0,22.83,3.34,24.85,8.13z"/>
+                        </svg>
+                </div>
+                <div class="poster">
+                        <svg class="heartdiv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+                        height="46px" viewBox="0 0 50 46" style="enable-background:new 0 0 50 46;" xml:space="preserve">
+                        <style type="text/css">
+                        </style>
+                        <defs>
+                        </defs>
+                        <path d="M24.85,8.13C26.87,3.34,31.48,0,36.84,0c7.22,0,12.42,6.18,13.08,13.54c0,0,0.35,1.83-0.42,5.12
+                        c-1.06,4.48-3.55,8.46-6.9,11.5L24.85,46L7.4,30.17c-3.35-3.04-5.84-7.02-6.9-11.5c-0.78-3.29-0.42-5.12-0.42-5.12
+                        C0.73,6.18,5.94,0,13.16,0C18.52,0,22.83,3.34,24.85,8.13z"/>
+                        </svg>
+                </div>
+                <div class="poster">
+                        <svg class="heartdiv" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+                        height="46px" viewBox="0 0 50 46" style="enable-background:new 0 0 50 46;" xml:space="preserve">
+                        <style type="text/css">
+                        </style>
+                        <defs>
+                        </defs>
+                        <path d="M24.85,8.13C26.87,3.34,31.48,0,36.84,0c7.22,0,12.42,6.18,13.08,13.54c0,0,0.35,1.83-0.42,5.12
+                        c-1.06,4.48-3.55,8.46-6.9,11.5L24.85,46L7.4,30.17c-3.35-3.04-5.84-7.02-6.9-11.5c-0.78-3.29-0.42-5.12-0.42-5.12
+                        C0.73,6.18,5.94,0,13.16,0C18.52,0,22.83,3.34,24.85,8.13z"/>
+                        </svg>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="js.js"></script>
+</body>
 </html>
