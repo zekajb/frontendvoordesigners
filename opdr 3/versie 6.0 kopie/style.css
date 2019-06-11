@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main  > div:nth-of-type(4),
+main  > div:nth-of-type(5),
+main  > div:nth-of-type(6) {
+     display: none;
+ }
+ 
+
+ .show{
+     display: block;
+ }
+
+ /* .laatste3 {
+     display: none;
+ }
+  */
+
+body {
+    overflow-x: hidden;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: #000000;
+    color: #000000;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+}
+
+header img:first-of-type {
+    display: block;
+    color: red;
+    width: 15rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+a:focus-visible{
+    outline: 2px solid #003082;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 22rem));
+    grid-gap: 2rem;
+    justify-content: center; 
+    text-align: center;
+    margin: 0 auto;  
+}
+
+header{
+    text-align: center;
+    margin: 0 auto;
+}
+
+button{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin: 1.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 17px;
+    display: inline;
+    font-size: 16px;
+    color: white;
+    justify-content: center;
+    background: #E30613;
+}
+
+button:hover{
+    transition: .3s ease-in-out;
+    background: #800000;
+}
+
+h2 {
+    padding: 2rem 0;
+    color: rgba(255,255,255, 0.8);
+}
+
+
+#info {
+    text-align: center;
+    color: white;
+    padding: 7px 17px;
+    background: rgba(169,169,169,0.2);
+    width: 20rem;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-bottom: 3rem;
+}
+
+section {
+
+    margin: 0 auto;
+}
+
+div { 
+    border-radius: 3px;
+    padding: 0;
+    background: black;
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+
+div:hover { 
+    background: rgba(255,255,255, 0.1);
+    transition: 0.4s ease-in-out;
+}
+
+img {
+    transition: 1s ease-in-out;
+    width: 50%;
+}
+
+p {
+    color: rgba(255,255,255, 0.4);
+    text-align: left;
+    margin: 0 auto;
+    padding: 7px 17px;
+}
+
+footer {
+    text-align: center;
+    height: 3.75rem;
+    margin-top: 3rem; 
+}
+
+#berat {
+    text-align: center;
+    color: white;
+}
+
+img:hover {
+    transition: 1s ease-in-out;
+    width: 100%;
+}
